@@ -1,19 +1,5 @@
-# GoogleManager
-/*
-function DecToHex(value) {
-            var result = "";
-            while( value != 0 ) {
-                var temp = value % 16;
-                Logger.log(temp);
-                var hex = temp < 10 ? String.fromCharCode(temp+48) : String.fromCharCode(temp+55);
-                result = hex.concat(result);
-                value = Math.floor(value/16);
-            }
-            if( ( result.length %2 ) != 0 ) result = "0"+result;
-            result = "0x"+result;
-            return result;
-        }
-        
+# GoogleManager  
+          
         function hexWithOpacity(opacityColumn,hexColumn,opacityValue,rowToStart) {
             var sheet = SpreadsheetApp.getActiveSheet();
             var range = sheet.getDataRange();
@@ -35,6 +21,20 @@ function DecToHex(value) {
                     }
                 }
             }
+        }
+        
+        function DecToHex(value) {
+            var result = "";
+            while( value != 0 ) {
+                var temp = value % 16;
+                Logger.log(temp);
+                var hex = temp < 10 ? String.fromCharCode(temp+48) : String.fromCharCode(temp+55);
+                result = hex.concat(result);
+                value = Math.floor(value/16);
+            }
+            if( ( result.length %2 ) != 0 ) result = "0"+result;
+            result = "0x"+result;
+            return result;
         }
         
         function hexWithOpacityPrompt() {
@@ -159,4 +159,4 @@ function DecToHex(value) {
         }
         
 
-*/
+
