@@ -1,5 +1,5 @@
 # GoogleManager  
-          
+```
         function hexWithOpacity(opacityColumn,hexColumn,opacityValue,rowToStart) {
             var sheet = SpreadsheetApp.getActiveSheet();
             var range = sheet.getDataRange();
@@ -159,4 +159,4 @@
         }
         
 
-
+```
