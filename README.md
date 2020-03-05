@@ -1,5 +1,5 @@
 # GoogleManager
-
+/*
 function DecToHex(value) {
             var result = "";
             while( value != 0 ) {
@@ -159,3 +159,4 @@ function DecToHex(value) {
         }
         
 
+*/
